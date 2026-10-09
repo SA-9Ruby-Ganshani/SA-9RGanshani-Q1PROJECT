@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q1 Project</title>
+    <style>
+        /* internal css */
+        body {
+            background-color: #dbe4f0;
+            font-family: Arial;
+            text-align: center;
+        }
+        header {
+            background-color: #603080;
+            padding: 10px;
+            color: white;
+        }
+        .mybox {
+            background-color: white;
+            width: 80%;
+            margin: 20px auto;
+            padding: 15px;
+            text-align: left;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #603080;
+            color: white;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header and Links -->
+    <header>
+        <a href="#"><img src="https://via.placeholder.com/30" alt="logo" style="vertical-align: middle;"></a>
+        &nbsp;&nbsp;
+        <a href="#about" style="color: white;">About Me</a> | 
+        <a href="#works" style="color: white;">My Works</a> | 
+        <a href="#contact" style="color: white;">Contact Me</a>
+    </header>
+
+    <!-- Intro -->
+    <div style="background-color: #c0d0e8; padding: 20px;">
+        <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Jane" alt="profile pic" width="90">
+       <h1>Hello, I'm <span style="color: #603080;">Shomi</span></h1>
+        <p><i>Aspiring Web Developer</i></p>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="mybox">
+        <h2 style="background-color: #8040a0; color: white; padding: 5px; text-align: center;">About Me</h2>
+        <p>Hi! I am Shomi, a Grade 9 student learning basic HTML and CSS in ICT class. I like making simple web pages.</p>
+        
+        <!-- Description list -->
+        <dl>
+            <dt><b>What I study:</b></dt>
+            <dd>Basic web design and coding tags.</dd>
+        </dl>
+    </div>
+
+    <!-- Works Section -->
+    <div id="works" class="mybox">
+        <h2 style="background-color: #8040a0; color: white; padding: 5px; text-align: center;">My Works</h2>
+        
+        <h3>Project 1</h3>
+        <img src="https://picsum.photos/150/100?random=1" alt="project1">
+        <!-- Unordered list -->
+        <ul>
+            <li>HTML and CSS Project</li>
+            <li>Spotify Artist Page</li>
+            <li>Lists and Links</li>
+        </ul>
+        <a href="https://github.com" target="_blank">View GitHub Repository</a>
+
+        <hr>
+
+        <h3>Project 2</h3>
+        <img src="https://picsum.photos/150/100?random=2" alt="project2">
+        <!-- Ordered list -->
+        <ol>
+            <li>HTML Form practice</li>
+            <li>Movie Ratings</li>
+            <li>Basic Layout</li>
+        </ol>
+        <a href="https://github.com" target="_blank">View GitHub Repository</a>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div id="contact" class="mybox">
+        <h2 style="background-color: #8040a0; color: white; padding: 5px; text-align: center;">Contact Me</h2>
+        
+        <form action="#" method="post">
+            <label>Your Name:</label><br>
+            <input type="text" name="username" placeholder="Jane Doe"><br><br>
+
+            <label>Your Email:</label><br>
+           <input type="text" name="username" placeholder="Shomi">
+
+            <label>How did you find me?</label><br>
+            <input type="radio" name="find" value="fb"> Facebook
+            <input type="radio" name="find" value="gg"> Google<br><br>
+
+            <label>Interested in:</label><br>
+            <input type="checkbox" name="interest" value="web"> Web Design<br><br>
+
+            <label>Rate my Portfolio:</label><br>
+            <select name="rating">
+                <option value="5">5 - Very Good</option>
+                <option value="4">4 - Good</option>
+            </select><br><br>
+
+            <label>Any Feedback?</label><br>
+            <textarea name="comments" rows="3" cols="30" placeholder="feedback here..."></textarea><br><br>
+
+            <input type="submit" value="Submit" style="background-color: #603080; color: white; border: none; padding: 8px 15px;">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+       <p>&copy; 2026 Shomi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
